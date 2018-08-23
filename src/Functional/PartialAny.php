@@ -83,5 +83,7 @@ function placeholder()
     return …();
 }
 
+// This triggers warnings in PHP 5.6
+// Commented since we don't use it
 /** Define unicode ellipsis constant */
-define('Functional\\…', …());
+// define('Functional\\…', …());
